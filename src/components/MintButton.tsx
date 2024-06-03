@@ -42,6 +42,7 @@ export default function MintButton(props: Props) {
   console.log(error);
 
   console.log(status);
+
   return (
     <div>
       <button
@@ -51,7 +52,7 @@ export default function MintButton(props: Props) {
           onClick();
         }}
       >
-        dsds
+        mint 10.5 tokens
       </button>
 
       <p>data</p>
