@@ -1,59 +1,24 @@
+# Andino user experience starter
 
-![tw-banner](https://github.com/thirdweb-example/next-starter/assets/57885104/20c8ce3b-4e55-4f10-ae03-2fe4743a5ee8)
+This repo is a starter repo that will keep evolving.
+In order to gain credit for this class you will clone this repo and make a new branch.
 
-# thirdweb-next-starter
-
-Starter template to build an onchain react native app with [thirdweb](https://thirdweb.com/) and [next](https://nextjs.org/).
-
-## Installation
-
-Install the template using [thirdweb create](https://portal.thirdweb.com/cli/create)
+To start simply install deps and run dev
 
 ```bash
-  npx thirdweb create app --next
+  npm i && npm run dev
 ```
 
-## Environment Variables
+Make sure to add `NEXT_PUBLIC_TEMPLATE_CLIENT_ID`
 
-To run this project, you will need to add the following environment variables to your .env file:
+## Homework Week 1
 
-`CLIENT_ID`
+Exercise: Create a simple web app that acts like a wallet.
+It should allow you to send, receive and see account balances for a few tokens such as USDC, ETH, and OP.
+It should support Base chain or Polygon.
+Ensure to handle transitions with animations and the proper load screens as needed.
+Readings:
 
-To learn how to create a client ID, refer to the [client documentation](https://portal.thirdweb.com/typescript/v5/client). 
-
-## Run locally
-
-Install dependencies
-
-```bash
-yarn
-```
-
-Start development server
-
-```bash
-yarn dev
-```
-
-Create a production build
-
-```bash
-yarn build
-```
-
-Preview the production build
-
-```bash
-yarn start
-```
-
-## Resources
-
-- [Documentation](https://portal.thirdweb.com/typescript/v5)
-- [Templates](https://thirdweb.com/templates)
-- [YouTube](https://www.youtube.com/c/thirdweb)
-- [Blog](https://blog.thirdweb.com)
-
-## Need help?
-
-For help or feedback, please [visit our support site](https://thirdweb.com/support)
+- https://blacktokenomics.com/how-to-design-tokenomics/#:~:text=To%20ensure%20an%20effective%20tokenomics,adaptation%20of%20the%20tokenomics%20model.
+- https://www.framer.com/motion/introduction/
+- https://www.code4it.dev/blog/run-postgresql-with-docker/#:~:text=Run%20the%20Docker%20Container,-Now%20that%20we&text=%2D%2Dname%20myPostgresDb%20is%20the,maps%20to%20Docker's%205432%20port.

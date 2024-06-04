@@ -10,7 +10,13 @@ import { useSendTransaction } from "thirdweb/react";
 import { parseUnits } from "ethers";
 
 export default function MintButton(props: Props) {
-  const { mutate: sendTransaction, data, error, status } = useSendTransaction();
+  const {
+    mutate: sendTransaction,
+    data,
+    error,
+    status,
+    failureReason,
+  } = useSendTransaction();
 
   // get a contract
   const contract = useMemo(
@@ -40,7 +46,7 @@ export default function MintButton(props: Props) {
 
   console.log(data);
   console.log(error);
-
+  console.log(failureReason);
   console.log(status);
 
   return (
