@@ -1,12 +1,14 @@
 # Andino user experience starter
 
-This repo is a starter repo that will keep evolving.
-In order to gain credit for this class you will clone this repo and make a new branch.
+> [!NOTE] **This repo is a starter repo that will keep evolving.**
+> In order to gain credit for this class you will clone this repo and make a new branch.
 
 To start simply install deps and run dev
 
 ```bash
-  npm i && npm run dev
+
+npm i && npm run dev
+
 ```
 
 Make sure to add `NEXT_PUBLIC_TEMPLATE_CLIENT_ID`
