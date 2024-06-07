@@ -1,6 +1,7 @@
 # Andino user experience starter
 
-> [!NOTE] **This repo is a starter repo that will keep evolving.**
+> [!IMPORTANT]
+> **This repo is a starter repo that will keep evolving.**
 > In order to gain credit for this class you will clone this repo and make a new branch.
 
 To start simply install deps and run dev
